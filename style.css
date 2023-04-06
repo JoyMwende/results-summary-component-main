@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+/* *{
+    box-shadow: 1px 2px 15px hsla(252, 100%, 67%, 0.12);
+} */
+.container{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 250px;
+    margin-bottom: 20px;
+    margin-left: 600px;
+    margin-right: 100px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: relative;
+    box-shadow: 1px 2px 15px hsla(252, 100%, 67%, 0.12);
+    /* border: 2px solid green; */
+    /* width: 750px; */
+    /* height: 500px; */
+}
+p{
+    font-size: 18px;
+}
+.container-left{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border: hidden;
+    border-radius: 20px;
+    padding: 40px;
+    width: 230px;
+    /* width: 375px; */
+    /* float: left; */
+    text-align: center;
+    position: absolute;
+    /* top: 0; */
+    left: 0px;
+    /* height: 100%; */
+}
+.container-right{
+    background-color: hsl(0, 0%, 100%);
+    padding: 0px 0px 30px 40px;
+    justify-content: center;
+    gap: 25px;
+    margin-top: -10px;
+    margin-right: -20px;
+    width: 350px;
+    /* width: 50%; */
+    /* float: left; */
+    position: absolute;
+    left: 310px;
+    /* top: 0; */
+    /* left: 375px; */
+    border-radius: 20px;
+    /* height: 100%; */
+    /* background-color: aliceblue; */
+}
+.result h4{
+    color: hsl(241, 100%, 89%);
+    font-weight: bold;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 77px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    justify-content: center;
+    align-items: center;
+    margin-left: 57px;
+    text-align: center;
+}
+.circle1 h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    padding-top: 30px;
+}
+.circle2 p{
+    color: hsl(224, 30%, 27%);
+}
+#line-2{
+    margin-top: -15px;
+}
+.great h2{
+    color: hsl(0, 0%, 100%);
+}
+.texts p{
+    color: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+}
+#line-1{
+    font-weight: 800;
+}
+
+
+table{
+    text-align: left;
+    border: none;
+    border-collapse: separate;
+    /* -webkit-margin-collapse: collapse; */
+}
+tr, td{
+    padding: 0;
+}
+.nospacing{
+    border-spacing: 0 15px;
+}
+.nospacing th, td{
+    padding: 0;
+}
+th h3{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+td:first-child {
+   /* border-left-style:solid; */
+   border-top-left-radius:11px;
+   border-bottom-left-radius:11px;
+}
+
+td:last-child {
+   /* border-right-style:solid; */
+   border-bottom-right-radius:11px;
+   border-top-right-radius:11px;
+}
+.box{
+    gap: 10px;
+}
+.box-1{
+    /* align-items: center; */
+    padding: 10px;
+    background-color: hsla(0, 61%, 88%, 0.30);
+    /* border: hidden; */
+    border-radius: 10px;
+    /* height: 30px; */
+    /* width: 300px; */
+    justify-content: space-around;
+    /* position: relative; */
+    text-align: center;
+}
+.img-1{
+    padding: 0 -19px 0 15px;
+}
+.box-text-1 p{
+    color: hsl(0, 100%, 67%);
+    padding: 0 90px 0 20px;
+    /* position: absolute; */
+    left: 40px;
+    border: none;
+}
+.box-text-1 p{
+    font-family: 500;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.box-2{
+    align-items: center;
+    padding: 10px;
+    background-color: hsla(39, 100%, 56%, 0.12);
+    /* border: hidden; */
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    justify-content: space-around;
+    /* position: relative; */
+}
+.img-2{
+    padding: 0 0px 0 15px;
+}
+.box-text-2{
+    color: hsl(39, 100%, 56%);
+    padding: 0 50px 0 20px;
+}
+.box-text-2 p{
+    font-family: 500;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.box-3{
+    align-items: center;
+    padding: 10px;
+    background-color: hsla(166, 100%, 37%, 0.08);
+    /* border: hidden; */
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    justify-content: space-around;
+    /* position: relative; */
+}
+.img-3{
+    padding: 0 0px 0 15px;
+}
+.box-text-3{
+    color: hsl(166, 100%, 37%);
+    padding: 0 50px 0 20px;
+}
+.box-text-3 p{
+    font-family: 500;
+}
+
+.box-4{
+    align-items: center;
+    /* padding: 10px; */
+    background-color: hsla(234, 85%, 45%, 0.12);
+    /* border: hidden; */
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    justify-content: space-around;
+    /* position: relative; */
+}
+.img-4{
+    padding: 0 0px 0 15px;
+}
+.box-text-4{
+    color: hsl(234, 85%, 45%);
+    padding-right: 50px;
+    padding-left: 20px;
+    font-family: 500;
+}
+.box-text-4 p{
+    font-family: 500;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.marks1{
+    padding: 0 20px 0 10px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 500;
+    /* gap: 6px; */
+    /* position: absolute; */
+    /* left: 100px; */
+}
+/* .marks1-score{
+    font-weight: bold;
+}
+.marks1-outof{
+    color: hsl(224, 30%, 27%);
+}
+.marks1-100{
+    color: hsl(224, 30%, 27%);
+} */
+
+.marks2{
+    padding: 0 20px 0 10px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 500;
+    /* gap: 6px; */
+}
+/* .marks2-score{
+    font-weight: bold;
+}
+.marks2-outof{
+    color: hsl(224, 30%, 27%);
+}
+.marks2-100{
+    color: hsl(224, 30%, 27%);
+} */
+
+.marks3{
+    padding: 0 20px 0 10px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 500;
+    /* gap: 6px; */
+}
+/* .marks3-score{
+    font-weight: bold;
+}
+.marks3-outof{
+    color: hsl(224, 30%, 27%);
+}
+.marks3-100{
+    color: hsl(224, 30%, 27%);
+} */
+
+.marks4{
+    padding: 0 20px 0 10px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 500;
+    /* gap: 6px; */
+}
+/* .marks4-score{
+    font-weight: bold;
+}
+.marks4-outof{
+    color: hsl(224, 30%, 27%);
+}
+.marks4-100{
+    color: hsl(224, 30%, 27%);
+} */
+
+.btn-continue button{
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    width: 200px;
+    height: 43px;
+    border: hidden;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.attribution{
+    position: absolute;
+    top: 740px;
+    margin-left: 800px;
+}

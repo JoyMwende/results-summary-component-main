@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container-left">
+
+
+      <div class="result">
+        <h4>Your Result</h4>
+      </div>
+
+      <div class="circle">
+        <div class="circle1">
+          <h1 id="line-1">76</h1>
+        </div>
+        <div class="circle2">
+          <p id="line-2">of 100</p>
+        </div>
+      </div>
+
+      <div class="great">
+        <h2>Great</h2>
+      </div>
+
+      <div class="texts">
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+  
+  
+    </div>
+
+
+
+    <div class="container-right">
+
+      <!-- <div class="title">
+        <h2>Summary</h2>
+      </div>
+
+      <div class="box">
+        <div class="box-1">
+          <div class="img-1">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction" />
+          </div>
+          <div class="box-text-1">
+            <p>Reaction</p>
+          </div>
+
+          <div class="marks1">
+            <div class="marks1-score">
+              <p>80</p>
+            </div>
+            <div class="marks1-outof">
+              <p>/</p>
+            </div>
+            <div class="marks1-100">
+              <p>100</p>
+
+              <span class="marks1-score">
+              <p>80</p>
+              </span>
+            <span class="marks1-outof">
+              <p>/</p>
+            </span>
+            <span class="marks1-100">
+              <p>100</p>
+            </span>
+            
+
+          </div>
+        </div>
+
+        <div class="box-2">
+          <div class="img-2">
+            <img src="./assets/images/icon-memory.svg" alt="memory" />
+          </div>
+          <div class="box-text-2">
+            <p>Memory</p>
+          </div>
+
+          <div class="marks2">
+            <div class="marks2-score">
+              <p>92</p>
+            </div>
+            <div class="marks2-outof">
+              <p>/</p>
+            </div>
+            <div class="marks2-100">
+              <p>100</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="box-3">
+          <div class="img-3">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal" />
+          </div>
+          <div class="box-text-3">
+            <p>Verbal</p>
+          </div>
+
+          <div class="marks3">
+            <div class="marks3-score">
+              <p>61</p>
+            </div>
+            <div class="marks3-outof">
+              <p>/</p>
+            </div>
+            <div class="marks3-100">
+              <p>100</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="box-4">
+          <div class="img-4">
+            <img src="./assets/images/icon-visual.svg" alt="Visual" />
+          </div>
+          <div class="box-text-4">
+            <p>Visual</p>
+          </div>
+
+          <div class="marks4">
+            <div class="marks4-score">
+              <p>72</p>
+            </div>
+            <div class="marks4-outof">
+              <p>/</p>
+            </div>
+            <div class="marks4-100">
+              <p>100</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="btn-continue">
+        <button>Continue</button>
+      </div> -->
+
+  
+      <div class="table">
+      <table class="nospacing">
+        <tbody>
+        <th class="title"><h3>Summary</h3></th>
+        <tr class="box-1">
+          <!-- <td class="img-1"><img src="./assets/images/icon-reaction.svg" alt="reaction" /></td> -->
+          <td class="box-text-1"><p><img src="./assets/images/icon-reaction.svg" alt="reaction" />    Reaction</p></td>
+          <td class="marks1">
+            <p><span><b>80</b></span> / 100</p>
+          </td>
+        </tr>
+
+        <tr class="box-2">
+          <!-- <td class="img-2"><img src="./assets/images/icon-memory.svg" alt="memory" /></td> -->
+          <td class="box-text-2"><p><img src="./assets/images/icon-memory.svg" alt="memory" />    Memory</p></td>
+          <td class="marks2"><p><span><b>92</b></span> / 100</p></td>
+        </tr>
+
+         <tr class="box-3">
+          <!-- <td class="img-3"><img src="./assets/images/icon-verbal.svg" alt="verbal" /></td> -->
+          <td class="box-text-3"><p><img src="./assets/images/icon-verbal.svg" alt="verbal" />    Verbal</p></td>
+          <td class="marks3"><p><span><b>61</b></span> / 100</p></td>
+        </tr>
+
+         <tr class="box-4">
+          <!-- <td class="img-4"><img src="./assets/images/icon-visual.svg" alt="Visual" /></td> -->
+          <td class="box-text-4"><p><img src="./assets/images/icon-visual.svg" alt="Visual" />   Visual</p></td>
+          <td class="marks4"><p><span><b>72</b></span> / 100</p></td>
+        </tr>
+
+        <!-- <tfoot>
+          <td class="btn-continue"><button>Continue</button></td>
+        </tfoot> -->
+        </tbody>
+      </table>
+      </div>
+
+      <div class="btn-continue">
+        <button>Continue</button>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+</body>
+</html>
